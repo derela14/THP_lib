@@ -10,6 +10,7 @@ journalistes.sort_by!(&:length)
 puts journalistes.at(0)
 
 #exo 3 : Combien y a t-il de handle contenant 5 caractères ? 
+puts journalistes.count {|x| x.caractères = 5}
 
 #exo 4 : Combien commencent par une majuscule ? 
 
